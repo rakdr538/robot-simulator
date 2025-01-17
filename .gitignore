@@ -24,7 +24,7 @@ hs_err_pid*
 replay_pid*
 
 # target files
-./target
+target/
 
-# idea
-.idea/
+# Idea file
+*.idea/
