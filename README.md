@@ -3,6 +3,14 @@ The following was discovered as part of building this project:
 
 # Getting Started
 
+* Should run like a normal spring-boot application.
+* Use either postman (or similar tools) or curl to post the file with robot simulation.
+
+mac (from folder where test.txt is present): curl -X POST -H "Content-Type: multipart/form-data" http://localhost:8080/upload --form file="@test.txt"
+
+windows: curl -F "filename=@\"C:\temp\file.txt\"" https://localhost:8080/upload
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
