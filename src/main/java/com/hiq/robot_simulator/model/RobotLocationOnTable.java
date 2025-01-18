@@ -1,6 +1,5 @@
-package com.hiq.robot_simulator.service;
+package com.hiq.robot_simulator.model;
 
-import com.hiq.robot_simulator.model.FaceDirection;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

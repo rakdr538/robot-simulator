@@ -1,6 +1,7 @@
 package com.hiq.robot_simulator.service;
 
 import com.hiq.robot_simulator.model.FaceDirection;
+import com.hiq.robot_simulator.model.RobotLocationOnTable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
